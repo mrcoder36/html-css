@@ -4,8 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <style>
+        body{
+            font-family: 'Roboto',Arial ,sans-serif;
+            
+        }
+
+        #search-box{
+            display: block;
+            
+        }
+
+        .video-previews{
+            border: 0 silver solid;
+            border-radius: 5px;
+            display: inline-block;
+            margin-right: 15px;
+
+        }
+
+        #thumbnails{
+            width: 300px;
+            border-radius: 10px;
+            padding-bottom: 12px;
+        }
+
+        .video-title{ 
+            font-size: 16px;
+            color: #000000;
+            margin-top: 0;
+            margin-bottom: 10px;
+            
+        }
+
+        .channel-name{
+            font-size: 14px;
+            color: rgb(111, 111, 111);
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+
+        .video-views{
+            font-size: 14px;
+            color: rgb(111, 111, 111);
+            margin-top: 0;
+        }
+
+    </style>
 </head>
 <body>
+    <input type="search" name="search" id="search-box" placeholder="Search">
+    <div class="video-previews">
+        <img src="thumbnails/thumb1.avif" alt="thumb1" id="thumbnails">
+        <p class="video-title">
+            HTML & CSS Full Course - Beginner to Pro
+        </p>
+
+        <p class="channel-name">SuperSimpleDev &checkmark;</p>
+
+        <p class="video-views">16M views • 3 years ago</p>
+
+    </div>
+
+    <div class="video-previews">
+        <img src="thumbnails/thumb1.avif" alt="thumb1" id="thumbnails">
+        <p class="video-title">
+            HTML & CSS Full Course - Beginner to Pro
+        </p>
+
+        <p class="channel-name">SuperSimpleDev &checkmark;</p>
+
+        <p class="video-views">16M views • 3 years ago</p>
+
+    </div>
+   
+
     
 </body>
 </html>
